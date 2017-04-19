@@ -572,9 +572,9 @@ void renderObjects() {
 
 	int i, j, x, y, block_type;
 
-	paper = loadPgm("paper.pgm");
-	rock = loadPgm("rock.pgm");
-	scissors = loadPgm("scissors.pgm");
+	paper = loadPgm("images/paper.pgm");
+	rock = loadPgm("images/rock.pgm");
+	scissors = loadPgm("images/scissors.pgm");
 
 	srand(time(NULL)); // seed random number generator
 
